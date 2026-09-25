@@ -1,4 +1,60 @@
-p, a {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    height: 540px;
+    margin-inline: auto;
     border: 2px solid black;
 }
 
+.foto {
+    width: 180px;
+    height: 185px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.contato {
+    width: 160px;
+    height: 42px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.informacoes div {
+    height: 32px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.primeiro {
+    border: 1px solid gray;
+    margin-bottom: 40px;
+}
+
+.segundo {
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.numeros {
+    display: flex;
+}
+
+.numeros div {
+    width: 70px;
+    height: 85px;
+    border: 2px solid black;
+}
+
+footer {
+    border: 2px solid black;
+    margin: 10px 20px 30px 40px;
+}
